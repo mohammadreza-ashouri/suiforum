@@ -1,0 +1,23 @@
+---
+compiled_package_info:
+  package_name: suiguild
+  address_alias_instantiation:
+    std: "0000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000002"
+    suiguild: "0000000000000000000000000000000000000000"
+  source_digest: C065FAE992725B0C76E36CD679F239FDB832F502CCFDD6882EE18096CAD16CD8
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: ~
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: true
+dependencies:
+  - MoveStdlib
+  - Sui
